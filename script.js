@@ -80,7 +80,7 @@ const quizQuestions = [
         answers: {
             a: "Buell",
             b: "Kieran",
-            c: "Jornada"
+            c: "Sem nome fixo"
         },
         correctAnswer: "c"
     },
@@ -97,21 +97,25 @@ const quizQuestions = [
 
 function buildQuiz() {
     const output = [];
+
     quizQuestions.forEach((currentQuestion, questionNumber) => {
         const answers = [];
-        for (letter in currentQuestion.answers) {
+
+        for (let letter in currentQuestion.answers) {
             answers.push(
                 `<label>
                     <input type="radio" name="question${questionNumber}" value="${letter}">
-                    ${letter} : ${currentQuestion.answers[letter]}
+                    ${letter}: ${currentQuestion.answers[letter]}
                 </label>`
             );
         }
+
         output.push(
             `<div class="question"> ${currentQuestion.question} </div>
              <div class="answers"> ${answers.join('')} </div>`
         );
     });
+
     quizContainer.innerHTML = output.join('');
 }
 
@@ -124,7 +128,7 @@ function showResults() {
         const selector = input[name=question${questionNumber}]:checked;
         const userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
-        if(userAnswer === currentQuestion.correctAnswer){
+        if (userAnswer === currentQuestion.correctAnswer) {
             numCorrect++;
             answerContainers[questionNumber].style.color = 'lightgreen';
         } else {
