@@ -4,92 +4,92 @@ const submitButton = document.getElementById('submit');
 
 const quizQuestions = [
     {
-        question: "1. Qual tag HTML é usada para criar um parágrafo?",
+        question: "1. Qual é o nome do protagonista principal de Red Dead Redemption 2?",
         answers: {
-            a: "<h1>",
-            b: "<p>",
-            c: "<div>"
+            a: "John Marston",
+            b: "Arthur Morgan",
+            c: "Dutch van der Linde"
         },
         correctAnswer: "b"
     },
     {
-        question: "2. Qual comando exibe mensagens no console no JavaScript?",
+        question: "2. Em que ano a história de RDR2 começa?",
         answers: {
-            a: "print()",
-            b: "echo()",
-            c: "console.log()"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "3. Qual símbolo é usado para comentários em CSS?",
-        answers: {
-            a: "//",
-            b: "/* */",
-            c: "#"
-        },
-        correctAnswer: "b"
-    },
-    {
-        question: "4. Qual atributo define um link no HTML?",
-        answers: {
-            a: "src",
-            b: "href",
-            c: "link"
-        },
-        correctAnswer: "b"
-    },
-    {
-        question: "5. No JavaScript, qual tipo de dado representa texto?",
-        answers: {
-            a: "String",
-            b: "Number",
-            c: "Boolean"
+            a: "1899",
+            b: "1905",
+            c: "1885"
         },
         correctAnswer: "a"
     },
     {
-        question: "6. Qual comando CSS muda a cor do texto?",
+        question: "3. Qual é o nome do grupo criminoso ao qual Arthur pertence?",
         answers: {
-            a: "background-color",
-            b: "text-color",
-            c: "color"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "7. Qual estrutura repete um bloco de código várias vezes?",
-        answers: {
-            a: "if",
-            b: "for",
-            c: "switch"
-        },
-        correctAnswer: "b"
-    },
-    {
-        question: "8. Em HTML, qual elemento é usado para imagens?",
-        answers: {
-            a: "<image>",
-            b: "<img>",
-            c: "<pic>"
-        },
-        correctAnswer: "b"
-    },
-    {
-        question: "9. Em JavaScript, qual operador é usado para atribuição?",
-        answers: {
-            a: "=",
-            b: "==",
-            c: "==="
+            a: "Van der Linde Gang",
+            b: "O'Driscoll Boys",
+            c: "Murfree Brood"
         },
         correctAnswer: "a"
     },
     {
-        question: "10. Qual tag HTML cria um título principal?",
+        question: "4. Quem é o líder da gangue de Arthur Morgan?",
         answers: {
-            a: "<h1>",
-            b: "<head>",
-            c: "<title>"
+            a: "Micah Bell",
+            b: "Dutch van der Linde",
+            c: "Bill Williamson"
+        },
+        correctAnswer: "b"
+    },
+    {
+        question: "5. Qual doença Arthur contrai durante o jogo?",
+        answers: {
+            a: "Pneumonia",
+            b: "Tuberculose",
+            c: "Febre tifoide"
+        },
+        correctAnswer: "b"
+    },
+    {
+        question: "6. Qual cidade fictícia do jogo é inspirada em Nova Orleans?",
+        answers: {
+            a: "Saint Denis",
+            b: "Valentine",
+            c: "Blackwater"
+        },
+        correctAnswer: "a"
+    },
+    {
+        question: "7. Quem trai a gangue no final da história?",
+        answers: {
+            a: "Micah Bell",
+            b: "Charles Smith",
+            c: "Sadie Adler"
+        },
+        correctAnswer: "a"
+    },
+    {
+        question: "8. Qual animal lendário pode ser caçado nas montanhas nevadas?",
+        answers: {
+            a: "Urso Grizzly Lendário",
+            b: "Alce Lendário",
+            c: "Pantera Lendária"
+        },
+        correctAnswer: "b"
+    },
+    {
+        question: "9. Qual é o nome do cavalo padrão inicial de Arthur?",
+        answers: {
+            a: "Buell",
+            b: "Kieran",
+            c: "Jornada"
+        },
+        correctAnswer: "c"
+    },
+    {
+        question: "10. Qual personagem se torna o protagonista após a morte de Arthur?",
+        answers: {
+            a: "John Marston",
+            b: "Sadie Adler",
+            c: "Javier Escuella"
         },
         correctAnswer: "a"
     }
