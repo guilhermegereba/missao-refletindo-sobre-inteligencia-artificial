@@ -1,18 +1,1 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz de Programação</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="quiz-container">
-        <h1>Quiz de Programação</h1>
-        <div id="quiz"></div>
-        <button id="submit">Enviar Respostas</button>
-        <div id="results"></div>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+...
